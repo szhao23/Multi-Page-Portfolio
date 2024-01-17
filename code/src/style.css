@@ -161,3 +161,61 @@ nav.nav-links a.selected {
 .recent .posts .post-item p {
   width: 400px;
 }
+
+.separator {
+  padding: 40px 148px 0;
+}
+
+.separator h4 {
+  margin-bottom: 30px;
+}
+
+.featured {
+  padding: 40px 290px 0;
+}
+
+.featured .item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  /* Add a "line" under each project item using border-bottom */
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.featured .item img {
+  width: 320px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.featured .item .details h3 {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.featured .item .details .item-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.featured .item .details .item-info .year-badge {
+  background-color: #303f9f;
+  padding: 2px 14px;
+  color: #fff;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.featured .item .details .item-info h4 {
+  color: #8695a4;
+  font-size: 18px;
+}
+
+.featured .item .details p {
+  width: 700px;
+  /* text-align: justify; */
+}
