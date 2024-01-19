@@ -228,7 +228,8 @@ nav .nav-links a.selected {
   font-size: 18px;
 }
 
-.featured .item .details p {
+.featured .item .details p,
+.works-list .item .details p {
   width: 700px;
   text-align: justify;
 }
