@@ -228,8 +228,7 @@ nav .nav-links a.selected {
   font-size: 18px;
 }
 
-.featured .item .details p,
-.works-list .item .details p {
+.featured .item .details p {
   width: 700px;
   text-align: justify;
 }
@@ -271,7 +270,7 @@ footer p {
 }
 
 .content {
-  padding: 30px 148px 60px;
+  padding: 30px 300px 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -326,6 +325,7 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  gap: 10px;
 }
 
 .content .post-list .post-item .buttons button {
@@ -372,4 +372,53 @@ footer p {
   font-weight: bold;
   margin-top: 30px;
   font-size: 14px;
+}
+
+/* Mobile Responsive Styling */
+@media screen and (max-width: 768px) {
+  nav {
+    justify-content: center;
+  }
+
+  nav .logo {
+    display: none;
+  }
+
+  .main {
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 40px 0;
+    height: auto;
+  }
+
+  .main .info h1 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .main .info p {
+    margin-bottom: 16px;
+  }
+
+  .main .info button {
+    padding: 6px 20px;
+    font-size: 13px;
+  }
+
+  .main img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+
+  .recent .posts,
+  .content .container {
+    flex-direction: column;
+  }
+
+  .content .container img {
+    width: 100%;
+    height: auto;
+  }
 }
