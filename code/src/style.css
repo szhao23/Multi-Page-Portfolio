@@ -59,6 +59,7 @@ nav .nav-links a {
 }
 
 /* Add Color Change when hovering over Nav Links*/
+/* Selected Class for Nav Links, whichever page is selected will be colored */
 nav .nav-links a:hover,
 nav .nav-links a.selected {
   color: #303f9f;
@@ -174,7 +175,6 @@ nav .nav-links a.selected {
   padding: 40px 290px 0;
 }
 
-/* Works.html Design style same so just need to add .works-list    content here */
 .featured .item,
 .works-list .item {
   display: flex;
@@ -231,7 +231,7 @@ nav .nav-links a.selected {
 
 /* Center Footer to Middle */
 footer {
-  padding: 40px;
+  padding: 40px 0;
   display: flex;
   /* With display flex we can center the content by setting to column and aligning items to center */
   flex-direction: column;
@@ -288,6 +288,7 @@ footer p {
 .content > p {
   width: 970px;
   font-size: 15px;
+  margin: 20px 0;
 }
 
 .content > img {
@@ -300,4 +301,17 @@ footer p {
 .content > h2,
 .content > h3 {
   width: 970px;
+}
+
+.content .post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content .post-list .post-item {
+  background-color: #dbedf2;
+  padding: 24px;
+  width: 960px;
+  border-radius: 10px;
 }
